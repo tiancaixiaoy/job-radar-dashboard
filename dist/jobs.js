@@ -1,8 +1,8 @@
 window.JOB_DATA = {
-  updatedAt: "2026-09-18 11:20 CST",
-  sourceVerifiedThrough: "2026-09-17",
+  updatedAt: "2026-09-22 10:05 CST",
+  sourceVerifiedThrough: "2026-09-22",
   sourceUrl: "https://wcn5yiabqbxh.feishu.cn/base/FBysbrfNWa22l7s6a2scDsfEnTf?table=tblPA2KMUBFbcATH&view=vewYfpcGgF",
-  note: "飞书游客视图部分JD与投递链接被截断。标记为待核验的岗位不会自动投递。",
+  note: "2026-09-22已核验金融与生物医药视图的当日新增岗位。飞书游客视图部分完整JD与投递链接仍需展开；待核验岗位不会自动投递。",
   jobs: [
     {tier:"A",company:"药明康德",industry:"生物医药",role:"校招岗位（具体方向待展开）",location:"待核验",reason:"头部医药研发服务企业，品牌强；医药研究和英文能力可迁移",risk:"完整JD与专业限制待核验",deadline:"尽快投递",status:"待核验JD",resume:"中文医药商业分析版"},
     {tier:"A",company:"方达医药",industry:"生物医药",role:"校招岗位（具体方向待展开）",location:"待核验",reason:"知名医药研发服务平台；HEOR、研究和数据背景相关",risk:"需确认是否有商业分析/市场准入/项目岗位",deadline:"尽快投递",status:"待核验JD",resume:"中文医药商业分析版"},
@@ -33,6 +33,25 @@ window.JOB_DATA = {
     {tier:"C",company:"光正眼科",industry:"医疗服务",role:"校招岗位（方向待展开）",location:"待核验",reason:"医疗行业相关，可作练手",risk:"公司口碑与岗位质量需重点核验",deadline:"尽快投递",status:"低优先",resume:"中文医药市场版"},
     {tier:"C",company:"中蓝晨光院",industry:"能源/化工",role:"研发工程师、应用开发工程师",location:"成都",reason:"央企平台",risk:"专业和岗位均偏材料研发，不匹配",deadline:"尽快投递",status:"不投技术岗",resume:"不生成"},
     {tier:"C",company:"长广溪智造",industry:"制造",role:"全栈工程师、控制算法工程师",location:"北京/无锡",reason:"可作技术岗位信息参考",risk:"专业与技术栈不匹配",deadline:"尽快投递",status:"不投",resume:"不生成"},
-    {tier:"C",company:"吴志机电",industry:"电子/制造",role:"机械研发工程师、电机设计等",location:"广州",reason:"练手信息池",risk:"专业硬性不匹配",deadline:"尽快投递",status:"不投",resume:"不生成"}
+    {tier:"C",company:"吴志机电",industry:"电子/制造",role:"机械研发工程师、电机设计等",location:"广州",reason:"练手信息池",risk:"专业硬性不匹配",deadline:"尽快投递",status:"不投",resume:"不生成"},
+    {tier:"A",company:"长城证券",industry:"金融",role:"综合调研、党委事务等",location:"深圳/上海等",reason:"券商平台较强，金融研究与数据背景可迁移",risk:"具体业务线和专业限制待核验",deadline:"2026/10/31",status:"待核验JD",resume:"中文金融研究版"},
+    {tier:"A",company:"兴业银行",industry:"金融",role:"管理培训生、金融科技等",location:"全国多地",reason:"头部股份行，金融、数据与管培方向匹配",risk:"需确认分行轮岗与地域偏好",deadline:"2026/10/25",status:"待核验JD",resume:"中文金融数据版"},
+    {tier:"B",company:"浙江产权交易所",industry:"金融",role:"交易服务实习、产品等",location:"杭州",reason:"金融与交易服务相关，可作练手与补充经历",risk:"实习岗且招聘对象为27至30届，需核验到岗时间",deadline:"尽快投递",status:"待核验JD",resume:"中文金融数据版"},
+    {tier:"A",company:"东莞银行",industry:"金融",role:"金融科技培训生、金融业务等",location:"合肥/长沙等",reason:"区域银行平台，金融与数据方向匹配",risk:"地域与轮岗安排待核验",deadline:"尽快投递",status:"待核验JD",resume:"中文金融数据版"},
+    {tier:"B",company:"翰荣投资",industry:"金融",role:"企业公告内查看",location:"上海",reason:"投资方向与金融背景相关",risk:"公司规模、完整JD与薪资待核验",deadline:"尽快投递",status:"待核验JD",resume:"中文金融研究版"},
+    {tier:"A",company:"浙银金租",industry:"金融",role:"综合培养岗",location:"杭州",reason:"银行系金融租赁平台，金融分析背景匹配",risk:"轮岗和业务开展要求待核验",deadline:"2026/10/25",status:"待核验JD",resume:"中文金融数据版"},
+    {tier:"A",company:"国金证券研究所",industry:"金融",role:"行业研究助理等",location:"北京/上海/深圳",reason:"知名券商研究平台，研究、数据与英文能力高度可迁移",risk:"金融实习深度与行业偏好待核验",deadline:"2026/10/16",status:"待核验JD",resume:"中文金融研究版"},
+    {tier:"A",company:"北京金融控股集团有限公司",industry:"金融",role:"管理培训生（投资管理等）",location:"北京",reason:"北京市属金融平台，投资管理与金融背景匹配",risk:"管培轮岗和学历专业要求待核验",deadline:"2026/10/11",status:"待核验JD",resume:"中文金融研究版"},
+    {tier:"A",company:"华能投资",industry:"金融",role:"人资岗",location:"北京",reason:"央企金融平台，企业信号强",risk:"当前可见方向为人资，与主线匹配较弱",deadline:"2026/10/31",status:"不投当前岗位",resume:"不生成"},
+    {tier:"A",company:"中国人寿集团",industry:"金融",role:"本年度校园招聘岗位",location:"全国多地",reason:"头部央企保险集团，金融与数据背景适配",risk:"需避开纯销售岗并核验具体子公司",deadline:"2026/10/15",status:"待核验JD",resume:"中文金融数据版"},
+    {tier:"A",company:"中国银行保险信息技术管理有限公司",industry:"金融科技",role:"业务管理岗、技术研发等",location:"北京/上海",reason:"保险基础设施平台，业务管理与数据方向适配",risk:"只投业务管理或数据相关岗",deadline:"2026/09/30",status:"优先核验",resume:"中文金融数据版"},
+    {tier:"A",company:"天成租赁",industry:"金融",role:"产业分析与资产管理岗",location:"北京",reason:"产业分析与资产管理和金融研究背景高度匹配",risk:"硕士起，需核验专业范围",deadline:"2026/10/31",status:"优先核验",resume:"中文金融研究版"},
+    {tier:"A",company:"中国人寿财险金融科技方向",industry:"金融科技",role:"人工智能开发岗",location:"北京/上海等",reason:"头部央企保险品牌，企业信号强",risk:"当前岗位为技术开发，与现有技能不匹配",deadline:"尽快投递",status:"不投技术岗",resume:"不生成"},
+    {tier:"B",company:"永诚财险",industry:"金融",role:"管理培训生（机构）等",location:"上海/昆明等",reason:"保险管培方向与金融背景相关",risk:"分支机构岗位内容及销售属性待核验",deadline:"2026/10/31",status:"待核验JD",resume:"中文金融数据版"},
+    {tier:"A",company:"高德美",industry:"医疗/医药/生物",role:"销售代表、品牌专员、区域相关岗",location:"北京/上海等",reason:"国际皮肤学与医美企业，医药市场和英文沟通方向匹配",risk:"销售属性、区域分配和专业要求待核验",deadline:"尽快投递",status:"优先核验",resume:"中文医药市场版"},
+    {tier:"B",company:"泓博医药",industry:"医疗/医药/生物",role:"合成研发、分析研发等",location:"上海/成都",reason:"医药行业平台有一定知名度",risk:"当前可见岗位偏化学研发，专业不匹配",deadline:"尽快投递",status:"不投研发岗",resume:"不生成"},
+    {tier:"B",company:"博科集团",industry:"医疗/医药/生物",role:"企业公告内查看",location:"待核验",reason:"医疗器械行业，可关注市场、运营或商业岗",risk:"可见信息不完整，需展开公告",deadline:"尽快投递",status:"待核验JD",resume:"中文医药市场版"},
+    {tier:"B",company:"河北赛斯坦达生物科技",industry:"医疗/医药/生物",role:"临床研究协调员CRC等",location:"待核验",reason:"临床研究与健康研究背景相邻，可作练手",risk:"需核验医药专业限制与CRC工作地点",deadline:"尽快投递",status:"待核验JD",resume:"中文医药商业分析版"},
+    {tier:"C",company:"蓝晶微生物",industry:"医疗/医药/生物",role:"农业管培生、研发科学家等",location:"待核验",reason:"生物行业相关，可作信息参考",risk:"岗位偏农业与实验研发，专业和经历不匹配",deadline:"尽快投递",status:"不投",resume:"不生成"}
   ]
 };
