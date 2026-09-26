@@ -1,8 +1,8 @@
 window.JOB_DATA = {
-  updatedAt: "2026-09-22 10:05 CST",
-  sourceVerifiedThrough: "2026-09-22",
+  updatedAt: "2026-09-26 10:30 CST",
+  sourceVerifiedThrough: "2026-09-25",
   sourceUrl: "https://wcn5yiabqbxh.feishu.cn/base/FBysbrfNWa22l7s6a2scDsfEnTf?table=tblPA2KMUBFbcATH&view=vewYfpcGgF",
-  note: "2026-09-22已核验金融与生物医药视图的当日新增岗位。飞书游客视图部分完整JD与投递链接仍需展开；待核验岗位不会自动投递。",
+  note: "2026-09-26登录后复核：源表最新日期为2026-09-25，今日暂无2026-09-26新行。本次补录9月23日至25日中与目标方向相关的岗位；部分完整JD、薪资及官方入口仍待展开核验，不会自动投递。",
   jobs: [
     {tier:"A",company:"药明康德",industry:"生物医药",role:"校招岗位（具体方向待展开）",location:"待核验",reason:"头部医药研发服务企业，品牌强；医药研究和英文能力可迁移",risk:"完整JD与专业限制待核验",deadline:"尽快投递",status:"待核验JD",resume:"中文医药商业分析版"},
     {tier:"A",company:"方达医药",industry:"生物医药",role:"校招岗位（具体方向待展开）",location:"待核验",reason:"知名医药研发服务平台；HEOR、研究和数据背景相关",risk:"需确认是否有商业分析/市场准入/项目岗位",deadline:"尽快投递",status:"待核验JD",resume:"中文医药商业分析版"},
@@ -52,6 +52,29 @@ window.JOB_DATA = {
     {tier:"B",company:"泓博医药",industry:"医疗/医药/生物",role:"合成研发、分析研发等",location:"上海/成都",reason:"医药行业平台有一定知名度",risk:"当前可见岗位偏化学研发，专业不匹配",deadline:"尽快投递",status:"不投研发岗",resume:"不生成"},
     {tier:"B",company:"博科集团",industry:"医疗/医药/生物",role:"企业公告内查看",location:"待核验",reason:"医疗器械行业，可关注市场、运营或商业岗",risk:"可见信息不完整，需展开公告",deadline:"尽快投递",status:"待核验JD",resume:"中文医药市场版"},
     {tier:"B",company:"河北赛斯坦达生物科技",industry:"医疗/医药/生物",role:"临床研究协调员CRC等",location:"待核验",reason:"临床研究与健康研究背景相邻，可作练手",risk:"需核验医药专业限制与CRC工作地点",deadline:"尽快投递",status:"待核验JD",resume:"中文医药商业分析版"},
-    {tier:"C",company:"蓝晶微生物",industry:"医疗/医药/生物",role:"农业管培生、研发科学家等",location:"待核验",reason:"生物行业相关，可作信息参考",risk:"岗位偏农业与实验研发，专业和经历不匹配",deadline:"尽快投递",status:"不投",resume:"不生成"}
+    {tier:"C",company:"蓝晶微生物",industry:"医疗/医药/生物",role:"农业管培生、研发科学家等",location:"待核验",reason:"生物行业相关，可作信息参考",risk:"岗位偏农业与实验研发，专业和经历不匹配",deadline:"尽快投递",status:"不投",resume:"不生成"},
+    {tier:"A",company:"锦江酒店",industry:"酒店/文旅",role:"管理培训生",location:"待核验",reason:"知名酒店集团，管培与市场运营主线匹配",risk:"轮岗范围、地点与培养路径待核验",deadline:"尽快投递",status:"待核验JD",resume:"中文市场运营版"},
+    {tier:"A",company:"工业富联",industry:"智能制造",role:"职能/业务类（仅投非技术方向）",location:"待核验",reason:"大型上市制造企业，平台与国际业务信号强",risk:"可见岗位包含大量技术方向，需筛选职能或业务岗",deadline:"尽快投递",status:"仅投非技术岗",resume:"中文商业分析版"},
+    {tier:"A",company:"新凯来",industry:"半导体",role:"审计专员",location:"深圳",reason:"高关注度半导体企业，审计与金融数据能力可迁移",risk:"审计专业要求与工作强度待核验",deadline:"尽快投递",status:"优先核验",resume:"中文金融数据版"},
+    {tier:"A",company:"扬子江药业集团",industry:"生物医药",role:"项目申报专员、监察审计等",location:"北京/上海等",reason:"头部医药集团，项目申报与医药商业分析主线相关",risk:"具体专业限制、岗位城市与完整JD待核验",deadline:"尽快投递",status:"优先核验",resume:"中文医药商业分析版"},
+    {tier:"A",company:"荃信生物",industry:"生物医药",role:"临床/职能方向（仅投非实验岗）",location:"北京/上海等",reason:"创新药企业，临床与医药项目方向相关",risk:"多数岗位可能要求医学或生物专业，需逐岗核验",deadline:"尽快投递",status:"待核验JD",resume:"中文医药商业分析版"},
+    {tier:"A",company:"天康生物",industry:"生物医药",role:"市场/职能方向",location:"吉林/重庆等",reason:"上市生物医药与农业企业，市场和职能方向可匹配",risk:"行业细分、地域及专业限制待核验",deadline:"尽快投递",status:"待核验JD",resume:"中文医药市场版"},
+    {tier:"A",company:"交银国际信托",industry:"金融",role:"投资/信托业务方向",location:"待核验",reason:"交行系信托平台，金融研究与业务方向高度相关",risk:"具体岗位、学历与专业范围待核验",deadline:"尽快投递",status:"优先核验",resume:"中文金融研究版"},
+    {tier:"A",company:"建信财产保险",industry:"金融",role:"管理培训生/业务方向",location:"北京/天津等",reason:"建行系保险平台，管培与金融数据方向匹配",risk:"需避开纯技术岗并核验轮岗安排",deadline:"尽快投递",status:"待核验JD",resume:"中文金融数据版"},
+    {tier:"A",company:"江苏金融租赁",industry:"金融",role:"业务部客户经理",location:"南京",reason:"上市金融租赁平台，客户与金融业务方向匹配",risk:"硕士要求、业绩属性与专业限制待核验",deadline:"尽快投递",status:"待核验JD",resume:"中文金融数据版"},
+    {tier:"A",company:"民生金融租赁",industry:"金融",role:"市场方向",location:"北京/香港等",reason:"银行系金融租赁平台，市场与金融主线匹配",risk:"岗位职责、地点和学历要求待核验",deadline:"尽快投递",status:"待核验JD",resume:"中文金融数据版"},
+    {tier:"A",company:"国金资管",industry:"金融",role:"量化研究员（资产配置等）",location:"上海",reason:"券商资管平台，金融研究和数据分析方向相关",risk:"量化门槛可能较高，需核验编程与数理要求",deadline:"尽快投递",status:"谨慎核验",resume:"中文金融研究版"},
+    {tier:"A",company:"建信养老金管理",industry:"金融",role:"研究方向",location:"待核验",reason:"建行系养老金管理平台，研究与金融背景匹配",risk:"具体研究领域、学历和专业要求待核验",deadline:"尽快投递",status:"待核验JD",resume:"中文金融研究版"},
+    {tier:"A",company:"中央国债登记结算有限责任公司",industry:"金融基础设施",role:"业务/综合方向",location:"北京等",reason:"国家级金融基础设施平台，品牌强且金融方向高度匹配",risk:"岗位竞争强，完整JD与资格条件待核验",deadline:"尽快投递",status:"优先核验",resume:"中文金融数据版"},
+    {tier:"A",company:"中信银行多地分行",industry:"金融",role:"管培生、客户经理、柜员等",location:"西宁/乌鲁木齐/银川/拉萨/昆明/贵阳/海口",reason:"头部股份行，多地管培与业务岗位可选",risk:"不同分行要求差异大，客户经理可能偏营销",deadline:"尽快投递",status:"待逐分行核验",resume:"中文金融数据版"},
+    {tier:"A",company:"中国建设银行多省分行",industry:"金融",role:"管理培训生、金融科技专项等",location:"山东/河北/深圳/陕西/甘肃/青海等",reason:"国有大行平台强，管培与金融数据方向匹配",risk:"需逐分行核验地点、专业及金融科技技能要求",deadline:"尽快投递",status:"待逐分行核验",resume:"中文金融数据版"},
+    {tier:"A",company:"中国万宝工程",industry:"国际工程",role:"业务/职能方向",location:"待核验",reason:"国际业务平台，英文沟通与商业分析方向匹配",risk:"岗位地点、出差外派与资格要求待核验",deadline:"尽快投递",status:"待核验JD",resume:"中文国际业务版"},
+    {tier:"B",company:"谷雨",industry:"消费品/美妆",role:"直播电商、供应链管理等",location:"待核验",reason:"国货美妆品牌，市场运营与电商方向匹配",risk:"具体岗位职责、节奏与地点待核验",deadline:"尽快投递",status:"待核验JD",resume:"中文市场运营版"},
+    {tier:"B",company:"卓尔",industry:"商业/电商",role:"市场运营（国内电商等）",location:"待核验",reason:"市场运营主线直接相关，可作为实践型岗位",risk:"业务线、薪资和培养机制待核验",deadline:"尽快投递",status:"待核验JD",resume:"中文市场运营版"},
+    {tier:"B",company:"南京创蓝科技",industry:"科技服务",role:"咨询服务方向",location:"南京",reason:"咨询与项目服务方向可迁移研究和沟通能力",risk:"公司业务质量、岗位边界与薪资待核验",deadline:"尽快投递",status:"待核验JD",resume:"中文咨询项目版"},
+    {tier:"B",company:"洁雅股份",industry:"消费品/制造",role:"外贸业务员",location:"待核验",reason:"外贸岗位与英文、国际沟通方向匹配",risk:"行业非核心主线，客户开发与销售属性待核验",deadline:"尽快投递",status:"待核验JD",resume:"中文国际业务版"},
+    {tier:"B",company:"钛和集团",industry:"专业服务",role:"项目助理（2027届）",location:"待核验",reason:"项目制专业服务，与咨询、研究和沟通能力相关",risk:"公司口碑、项目内容和学历要求待核验",deadline:"尽快投递",status:"待核验JD",resume:"中文咨询项目版"},
+    {tier:"B",company:"今朝时代",industry:"科技/制造",role:"产品经理管培生",location:"待核验",reason:"产品管培与市场运营、数据分析能力可迁移",risk:"行业、培养机制和岗位技术要求待核验",deadline:"尽快投递",status:"待核验JD",resume:"中文产品运营版"},
+    {tier:"B",company:"康龙化成",industry:"生物医药",role:"CDMO/实验室服务（仅投商务或项目岗）",location:"北京/天津等",reason:"头部医药研发服务平台，医药项目与客户服务方向有潜在匹配",risk:"当前可见岗位可能偏实验技术，需确认非实验方向",deadline:"尽快投递",status:"仅投非实验岗",resume:"中文医药商业分析版"}
   ]
 };
