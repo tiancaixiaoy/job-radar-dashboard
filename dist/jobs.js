@@ -1,8 +1,8 @@
 window.JOB_DATA = {
-  updatedAt: "2026-09-26 10:30 CST",
-  sourceVerifiedThrough: "2026-09-25",
+  updatedAt: "2026-09-29 11:20 CST",
+  sourceVerifiedThrough: "2026-09-29",
   sourceUrl: "https://wcn5yiabqbxh.feishu.cn/base/FBysbrfNWa22l7s6a2scDsfEnTf?table=tblPA2KMUBFbcATH&view=vewYfpcGgF",
-  note: "2026-09-26登录后复核：源表最新日期为2026-09-25，今日暂无2026-09-26新行。本次补录9月23日至25日中与目标方向相关的岗位；部分完整JD、薪资及官方入口仍待展开核验，不会自动投递。",
+  note: "2026-09-29登录后复核源表当日更新。本次新增8个与目标方向相关的候选；完整JD、薪资及官方入口尚未全部展开核验，均不会自动投递。",
   jobs: [
     {tier:"A",company:"药明康德",industry:"生物医药",role:"校招岗位（具体方向待展开）",location:"待核验",reason:"头部医药研发服务企业，品牌强；医药研究和英文能力可迁移",risk:"完整JD与专业限制待核验",deadline:"尽快投递",status:"待核验JD",resume:"中文医药商业分析版"},
     {tier:"A",company:"方达医药",industry:"生物医药",role:"校招岗位（具体方向待展开）",location:"待核验",reason:"知名医药研发服务平台；HEOR、研究和数据背景相关",risk:"需确认是否有商业分析/市场准入/项目岗位",deadline:"尽快投递",status:"待核验JD",resume:"中文医药商业分析版"},
@@ -75,6 +75,14 @@ window.JOB_DATA = {
     {tier:"B",company:"洁雅股份",industry:"消费品/制造",role:"外贸业务员",location:"待核验",reason:"外贸岗位与英文、国际沟通方向匹配",risk:"行业非核心主线，客户开发与销售属性待核验",deadline:"尽快投递",status:"待核验JD",resume:"中文国际业务版"},
     {tier:"B",company:"钛和集团",industry:"专业服务",role:"项目助理（2027届）",location:"待核验",reason:"项目制专业服务，与咨询、研究和沟通能力相关",risk:"公司口碑、项目内容和学历要求待核验",deadline:"尽快投递",status:"待核验JD",resume:"中文咨询项目版"},
     {tier:"B",company:"今朝时代",industry:"科技/制造",role:"产品经理管培生",location:"待核验",reason:"产品管培与市场运营、数据分析能力可迁移",risk:"行业、培养机制和岗位技术要求待核验",deadline:"尽快投递",status:"待核验JD",resume:"中文产品运营版"},
-    {tier:"B",company:"康龙化成",industry:"生物医药",role:"CDMO/实验室服务（仅投商务或项目岗）",location:"北京/天津等",reason:"头部医药研发服务平台，医药项目与客户服务方向有潜在匹配",risk:"当前可见岗位可能偏实验技术，需确认非实验方向",deadline:"尽快投递",status:"仅投非实验岗",resume:"中文医药商业分析版"}
+    {tier:"B",company:"康龙化成",industry:"生物医药",role:"CDMO/实验室服务（仅投商务或项目岗）",location:"北京/天津等",reason:"头部医药研发服务平台，医药项目与客户服务方向有潜在匹配",risk:"当前可见岗位可能偏实验技术，需确认非实验方向",deadline:"尽快投递",status:"仅投非实验岗",resume:"中文医药商业分析版"},
+    {tier:"A",company:"华兴资本",industry:"金融",role:"财务顾问分析师、Investment相关岗位",location:"北京/上海/香港",reason:"知名精品投行，金融分析、研究与英文沟通方向高度匹配",risk:"竞争强，需核验学历、实习经历和具体岗位要求",deadline:"尽快投递",status:"优先核验",resume:"中文金融研究版"},
+    {tier:"A",company:"安利（中国）",industry:"消费品/健康",role:"研发管理培训生（植物研究方向等）",location:"北京/上海/安徽等",reason:"知名外企且健康消费品相关，研究与英文沟通能力可迁移",risk:"岗位可能要求植物、生物或食品专业，需核验硬性专业限制",deadline:"尽快投递",status:"待核验JD",resume:"中文医药商业分析版"},
+    {tier:"A",company:"中国石化润滑油公司",industry:"能源/化工",role:"国际化发展储备等",location:"北京/重庆/天津等",reason:"大型央企平台，国际业务与英文沟通方向存在匹配",risk:"可见岗位包含技术方向，仅投国际业务或职能岗位",deadline:"尽快投递",status:"仅投非技术岗",resume:"中文国际业务版"},
+    {tier:"A",company:"北京银行",industry:"金融",role:"金融英才、科技英才、交叉培养等",location:"北京/天津/石家庄等",reason:"上市城商行，金融、数据与管培方向匹配",risk:"需核验具体分支机构、专业限制和岗位营销属性",deadline:"尽快投递",status:"优先核验",resume:"中文金融数据版"},
+    {tier:"A",company:"石药集团",industry:"生物医药",role:"研发、生产、销售体系岗位",location:"石家庄/全国多地",reason:"头部医药集团，销售、市场与医药商业方向匹配",risk:"需避开纯实验研发岗并核验销售体系具体岗位",deadline:"尽快投递",status:"优先核验",resume:"中文医药市场版"},
+    {tier:"A",company:"南京银行",industry:"金融",role:"总行定向培训生、信息科技等",location:"南京/北京/上海等",reason:"上市银行，管培与金融数据方向匹配",risk:"需核验总分行岗位、专业限制与轮岗安排",deadline:"尽快投递",status:"优先核验",resume:"中文金融数据版"},
+    {tier:"A",company:"华夏银行",industry:"金融",role:"校园招聘岗位（方向待展开）",location:"待核验",reason:"全国性股份制银行，品牌与金融方向匹配",risk:"完整JD、地点和岗位类别待核验",deadline:"尽快投递",status:"待核验JD",resume:"中文金融数据版"},
+    {tier:"B",company:"太仓农村商业银行",industry:"金融",role:"校园招聘岗位（方向待展开）",location:"太仓/苏州地区",reason:"区域银行，金融背景可匹配并可作补充投递",risk:"地域、岗位营销属性及完整JD待核验",deadline:"尽快投递",status:"待核验JD",resume:"中文金融数据版"}
   ]
 };
