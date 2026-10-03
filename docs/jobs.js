@@ -1,8 +1,8 @@
 window.JOB_DATA = {
-  updatedAt: "2026-10-01 11:40 CST",
-  sourceVerifiedThrough: "2026-10-01",
+  updatedAt: "2026-10-03 15:36 CST",
+  sourceVerifiedThrough: "2026-10-02",
   sourceUrl: "https://wcn5yiabqbxh.feishu.cn/base/FBysbrfNWa22l7s6a2scDsfEnTf?table=tblPA2KMUBFbcATH&view=vewYfpcGgF",
-  note: "2026-10-01登录后复核源表当日更新。本次从65条当日记录中筛出19个与目标方向相关的候选；完整JD、薪资、专业限制及官方入口尚未全部展开核验，均不会自动投递。",
+  note: "2026-10-03登录后复核源表，确认2026-10-02新增或更新44条；筛出11个A档和10个B档候选。完整JD、薪资、截止时间及官方入口尚未逐项展开，统一标记待核验，不会自动投递。",
   jobs: [
     {tier:"A",company:"药明康德",industry:"生物医药",role:"校招岗位（具体方向待展开）",location:"待核验",reason:"头部医药研发服务企业，品牌强；医药研究和英文能力可迁移",risk:"完整JD与专业限制待核验",deadline:"尽快投递",status:"待核验JD",resume:"中文医药商业分析版"},
     {tier:"A",company:"方达医药",industry:"生物医药",role:"校招岗位（具体方向待展开）",location:"待核验",reason:"知名医药研发服务平台；HEOR、研究和数据背景相关",risk:"需确认是否有商业分析/市场准入/项目岗位",deadline:"尽快投递",status:"待核验JD",resume:"中文医药商业分析版"},
@@ -102,6 +102,27 @@ window.JOB_DATA = {
     {tier:"B",company:"明门集团",industry:"制造/消费品",role:"产品研发及相关方向",location:"待核验",reason:"产品与消费品业务相邻，可关注非技术产品或运营岗位",risk:"可见岗位可能偏工程研发，需筛选非技术方向",deadline:"尽快投递",status:"仅投非技术岗",resume:"中文产品运营版"},
     {tier:"B",company:"嘉银科技",industry:"金融科技",role:"海外业务管理等",location:"待核验",reason:"金融科技与海外业务方向可结合金融和英文能力",risk:"业务合规、岗位边界与公司口碑待重点核验",deadline:"尽快投递",status:"待核验JD",resume:"中文国际业务版"},
     {tier:"B",company:"南雄农村商业银行",industry:"金融",role:"综合柜员岗",location:"南雄",reason:"银行岗位与金融背景相关，可作地域型补充投递",risk:"地点限制明显，岗位可能偏柜面与营销",deadline:"尽快投递",status:"低优先核验",resume:"中文金融数据版"},
-    {tier:"B",company:"优宁维",industry:"生物医药",role:"科研服务、销售或项目方向",location:"待核验",reason:"生命科学服务企业，医药研究与客户项目方向相邻",risk:"需核验是否限制生命科学专业及销售属性",deadline:"尽快投递",status:"待核验JD",resume:"中文医药商业分析版"}
+    {tier:"B",company:"优宁维",industry:"生物医药",role:"科研服务、销售或项目方向",location:"待核验",reason:"生命科学服务企业，医药研究与客户项目方向相邻",risk:"需核验是否限制生命科学专业及销售属性",deadline:"尽快投递",status:"待核验JD",resume:"中文医药商业分析版"},
+    {tier:"A",company:"先声药业集团",industry:"生物医药",role:"医学、市场、市场准入、制药等",location:"全国多地",reason:"市场准入与卫生经济主线高度匹配",risk:"完整JD、薪资和专业限制待核验",deadline:"待核验",status:"待核验JD",resume:"中文医药商业分析版"},
+    {tier:"A",company:"国元证券",industry:"金融",role:"管培生（投资和资产配置等）",location:"北京/天津/上海等",reason:"金融与数据主线匹配，平台知名",risk:"完整JD、截止时间及具体方向待核验",deadline:"待核验",status:"待核验JD",resume:"中文金融研究版"},
+    {tier:"A",company:"大连银行",industry:"金融",role:"通才计划-科技金融方向等",location:"全国多地",reason:"银行平台与金融、数据方向匹配",risk:"轮岗、地域和专业限制待核验",deadline:"待核验",status:"待核验JD",resume:"中文金融数据版"},
+    {tier:"A",company:"国联证券资管",industry:"金融",role:"分析与策略、投资、研究等",location:"北京/上海/无锡",reason:"硕士背景与金融研究主线匹配",risk:"岗位竞争与量化要求待核验",deadline:"待核验",status:"待核验JD",resume:"中文金融研究版"},
+    {tier:"A",company:"国药器械北京公司",industry:"生物医药",role:"管培生、财务专员、销售代表等",location:"北京",reason:"医药商业与财务方向匹配，平台知名",risk:"需筛选非纯销售岗位并核验专业限制",deadline:"待核验",status:"待核验JD",resume:"中文医药商业分析版"},
+    {tier:"A",company:"中国海油",industry:"能源",role:"IT、专业工程师、生产操作等（筛非技术岗）",location:"北京/天津等",reason:"大型央企，企业平台信号强",risk:"可见岗位偏技术，仅投职能与业务岗",deadline:"待核验",status:"仅投非技术岗",resume:"中文商业分析版"},
+    {tier:"A",company:"中国旅游集团",industry:"文旅/生活服务",role:"科技、产品、运营等方向",location:"北京/廊坊/吉林等",reason:"大型央企且产品运营方向匹配",risk:"具体子公司、地点和岗位要求待核验",deadline:"待核验",status:"待核验JD",resume:"中文市场运营版"},
+    {tier:"A",company:"上海浦东软件园",industry:"园区/科技服务",role:"管培生",location:"上海",reason:"上海大型平台，管培方向开放",risk:"培养方案、薪资和完整JD待核验",deadline:"待核验",status:"待核验JD",resume:"中文商业分析版"},
+    {tier:"A",company:"CASETiFY",industry:"消费品",role:"品牌发展管理培训生",location:"上海",reason:"外企品牌、市场与英文沟通高度匹配",risk:"完整JD、招聘届别和截止时间待核验",deadline:"待核验",status:"待核验JD",resume:"中文市场运营版"},
+    {tier:"A",company:"罗尔斯罗伊斯",industry:"制造",role:"Customer Operations等",location:"北京/上海",reason:"知名外企，运营与英文沟通方向匹配",risk:"岗位范围与工作授权要求待核验",deadline:"待核验",status:"待核验JD",resume:"中文国际业务版"},
+    {tier:"A",company:"上海国茂控股",industry:"贸易/零售",role:"管理培训生",location:"上海",reason:"上海央国企管培岗，商业方向匹配",risk:"轮岗、薪资和专业要求待核验",deadline:"待核验",status:"待核验JD",resume:"中文商业分析版"},
+    {tier:"B",company:"远光软件",industry:"IT/互联网",role:"AI工程师、AI产品应用师等",location:"北京/呼和浩特等",reason:"AI产品方向可尝试",risk:"技术要求与完整JD待核验",deadline:"待核验",status:"待核验JD",resume:"中文产品运营版"},
+    {tier:"B",company:"通用生物",industry:"生物医药",role:"国内市场BD、实验研究员等",location:"滁州",reason:"医药商业BD与主线相关",risk:"仅投市场BD，需避开实验研发岗",deadline:"待核验",status:"待核验JD",resume:"中文医药市场版"},
+    {tier:"B",company:"东方君信",industry:"金融",role:"运营经理助理、金融相关岗位",location:"上海",reason:"运营与金融方向匹配",risk:"公司平台、薪资和JD待核验",deadline:"待核验",status:"待核验JD",resume:"中文金融数据版"},
+    {tier:"B",company:"洲际船务集团",industry:"物流/航运",role:"商务管培生、船贸管培生等",location:"上海/青岛/深圳/香港",reason:"国际商务与运营方向匹配",risk:"航运行业知识和岗位销售属性待核验",deadline:"待核验",status:"待核验JD",resume:"中文国际业务版"},
+    {tier:"B",company:"XbotPark机器人基地",industry:"专业服务",role:"后备人才，专业不限",location:"东莞",reason:"专业不限，可作商业运营补充投递",risk:"具体职能和培养路径待核验",deadline:"待核验",status:"待核验JD",resume:"中文商业分析版"},
+    {tier:"B",company:"天津电气科学研究院",industry:"制造",role:"技术经理人、营销工程师等",location:"天津",reason:"营销岗位可能匹配",risk:"需核验专业限制并避开技术岗",deadline:"待核验",status:"待核验JD",resume:"中文市场运营版"},
+    {tier:"B",company:"九丰集团",industry:"能源",role:"经营管理、供应链管理等",location:"广州/东莞",reason:"经营与供应链方向中等匹配",risk:"岗位细节、地点和薪资待核验",deadline:"待核验",status:"待核验JD",resume:"中文商业分析版"},
+    {tier:"B",company:"明泉集团",industry:"能源/化工",role:"管培生及其他岗位",location:"北京/上海/济南/泰安",reason:"管培方向可投",risk:"需避开研发和工艺技术岗位",deadline:"待核验",status:"待核验JD",resume:"中文商业分析版"},
+    {tier:"B",company:"LUXET",industry:"制造/电子",role:"销售工程师、应用工程师等",location:"上海/合肥/深圳",reason:"销售与国际沟通方向可迁移",risk:"技术要求与硕士专业限制待核验",deadline:"待核验",status:"待核验JD",resume:"中文国际业务版"},
+    {tier:"B",company:"北京国基",industry:"生活服务",role:"市场拓展岗、项目管理岗等",location:"北京/郑州",reason:"市场运营方向匹配",risk:"公司信息、薪资和完整JD待核验",deadline:"待核验",status:"待核验JD",resume:"中文市场运营版"}
   ]
 };
